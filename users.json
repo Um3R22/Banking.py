@@ -1,0 +1,29 @@
+
+# work on Python files
+
+import json 
+
+file_path # 'users.json'
+
+with open ('users.json',encoding ="utf-8") as f:
+    read_data= f.read()
+    print (read_data)
+'users.json'
+
+def user(name:str,ID:int)->dict: 
+return { 
+      "ID":id,
+      "name":name
+    }
+
+# write user function
+
+date=user ("Umer farooq", 1 )
+# write  file 
+def write_file(file path:str,data:dict):
+with open (file_path "w"as file:)
+             file.write(json.dump(data,file,indent=2))
+f.write (data)
+return f 'written successfully'
+
+
